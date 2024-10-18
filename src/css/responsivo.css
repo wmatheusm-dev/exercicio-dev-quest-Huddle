@@ -1,45 +1,91 @@
-@media(max-width: 1000px){
- body{
-    margin-left: 2rem;
-    background: url(../images/bg-mobile.svg) center no-repeat cover;
-    background-color: hsl(257, 40%, 49%);
-    
- }
+@media(max-width: 821px){
 
-.cabecalho .logo img{
-    width: 8rem;
-    margin-bottom: 2rem;
-    margin-left: 2rem;
+   body{
+      overflow-y: scroll;
+   }
+
+   .cabecalho .logo{
+      margin-top: 5%;
+      margin-left: 6%;
+      margin-bottom: 2%;
+   }
+  .cabecalho .logo .image{
+   width: 200px;
+  }
+
+  .container{
+   display: flex;
+   flex-direction: column;
+  }
+
+  .container .mockup{
+      padding: 6%;
+  }
+
+  .container .infos{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+  }
+
+  .container .infos .title,
+  .container .infos .subtitle{
+   text-align: center;
+   font-size: 26px;
+   line-height: 40px;
+  }
+
+  .container .infos .paragraph{
+   text-align:center
+  }
+
+  .container .infos .btn{
+      display: flex;
+      align-self: center;
+      padding: 15px 100px;
+  }
+
+  .rodape .nav-icones .icones{
+   display: flex;
+   justify-content: center;
+   margin: 0;
+  }
+
+  .rodape .nav-icones .icones li{
+      margin: 15px;
+  }
 }
 
- .container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
- }
+@media(max-width:481px){
 
- .container img{
-    width: 25rem;
- }
+   body{
+      overflow-y: scroll;
+   }
 
- .container .infos h1{
-    font-size: 1.5rem;
-    text-align: center;
- }
+   .cabecalho .logo{
+      margin-top: 40px;
+   }
+   .cabecalho .logo .image{
+      width: 110px;
+   }
 
- .container .infos p{
-    width: 18.75rem;
-    text-align: center;
- }
+   .container .infos .title,
+   .container .infos .subtitle{
+      font-size: 23px;
+   }
 
- .container .infos a{
-    align-self: center;
-    padding: 10px 80px;
- }
+   .container .infos .paragraph{
+      margin-top: 30px;
+      width: 300px;
+      font-weight: 300;
+   }
 
-.rodape{
-    display: flex;
-    justify-content: center;
-    margin-right:0;
-}
+   .container .infos .btn{
+      margin-top: 25px;
+      margin-bottom: 40px;
+      padding: 10px 80px;
+   }
+
+  
 }

@@ -7,6 +7,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
     <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/variaveis.css">
     <link rel="stylesheet" href="./src/css/estilos.css">
     <link rel="stylesheet" href="./src/css/responsivo.css">
 
@@ -23,37 +24,39 @@
 </head>
 <body>
 
-  <header class="cabecalho">
+  <main class="main">
 
+  <header class="cabecalho">
     <div class="logo">
-      <a href="">
-        <img src="./src/images/logo.svg" alt="">
+      <a href="#">
+        <img src="./src/images/logo.svg" alt="logotipo da empresa" class="image">
       </a>
     </div>
-
-
   </header>
 
 
-
-  <main class="container">
-      <img src="./src/images/illustration-mockups.svg" alt="">
-
+  <section class="container">
+      <img src="./src/images/illustration-mockups.svg" alt="ilustração para papel de parede" class="mockup">
       <div class="infos">
-        <h1>Build The Community</h1>
-        <h1>Your Fans Will Love</h1>
-        <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
-        <a href="#">Register</a>
+        <h1 class="title">Build The Community</h1>
+        <h2 class="subtitle">Your Fans Will Love</h2>
+        <p class="paragraph">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
+        <a href="#" class="btn">Register</a>
       </div>
-
-  </main>
+  </section>
 
 
   <footer class="rodape">
-    <a href=""><i class="fab fa-facebook"></i></a>
-    <a href=""><i class="fab fa-twitter"></i></a>
-    <a href=""><i class="fab fa-instagram"></i></a>
+    <nav class="nav-icones">
+      <ul class="icones">
+        <li><a href=""><i class="fab fa-facebook"></i></a></li>
+        <li><a href=""><i class="fab fa-twitter"></i></a></li>
+        <li><a href=""><i class="fab fa-instagram"></i></a></li>
+      </ul>
+  </nav>
   </footer>
+
+</main>
 
 </body>
 </html>
